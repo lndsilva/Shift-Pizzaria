@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_informe_seu_login">Informe seu login</string>
+    <string name="hint_informe_sua_senha">Informe sua senha</string>
+    <string name="label_conectar">Concetar</string>
+</resources>
