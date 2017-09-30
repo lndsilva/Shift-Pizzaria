@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_padrao"
+    tools:context="br.com.fiap.pizzaria.MenuActivity">
+
+    <include layout="@layout/cabecalho"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/meucabecalho"
+        android:layout_above="@+id/meurodape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvSaudacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Olá, Cliente"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:layout_below="@+id/tvSaudacao"
+            android:id="@+id/btFazerPedido"
+            style="@style/botao"
+            android:text="@string/fazer_pedido"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/btFazerPedido"
+            android:id="@+id/btSobre"
+            style="@style/botao"
+            android:text="@string/sobre"/>
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/rodape"
+        />
+
+
+</RelativeLayout>
