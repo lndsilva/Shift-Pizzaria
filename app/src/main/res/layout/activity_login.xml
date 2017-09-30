@@ -9,6 +9,7 @@
     tools:context="br.com.fiap.pizzaria.LoginActivity">
 
     <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -18,13 +19,32 @@
             android:hint="@string/hint_informe_seu_login" />
     </android.support.design.widget.TextInputLayout>
 
-    <EditText
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_informe_sua_senha"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvMensagem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/hint_informe_sua_senha" />
+        android:gravity="center"
+        android:padding="@dimen/padding_padrao"
+        android:visibility="gone"
+        tools:text="Minha Mensagem"
+        tools:visibility="visible"
+        style="@style/mensagem_de_erro"/>
 
     <Button
         style="@style/botao"
+        android:onClick="conectar"
         android:text="@string/nome_botao_conectar" />
 
 

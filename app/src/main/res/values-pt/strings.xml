@@ -3,4 +3,7 @@
     <string name="hint_informe_seu_login">Informe seu login</string>
     <string name="hint_informe_sua_senha">Informe sua senha</string>
     <string name="label_conectar">Concetar</string>
+    <string name="mensagem_campo_obrigatório">* Campo obrigatório</string>
+    <string name="mensagem_usuario_senha_invalida">usuário/senha inválida!!!</string>
+    <string name="nome_botao_conectar">Conectar</string>
 </resources>

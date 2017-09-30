@@ -14,5 +14,10 @@
         <item name="android:textColor">@color/cor_da_fonte_botao</item>
         <item name="android:background">@drawable/botao_personalizado</item>
     </style>
+    <style name="mensagem_de_erro">
+        <item name="android:textColor">@color/cor_mensagem_erro</item>
+        <item name="android:textStyle">bold</item>
+        
+    </style>
 
 </resources>

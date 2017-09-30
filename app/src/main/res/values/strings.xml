@@ -3,5 +3,8 @@
     <string name="hint_informe_seu_login">Type Login</string>
     <string name="hint_informe_sua_senha">Type password</string>
     <string name="label_conectar">Connect</string>
-    <string name="nome_botao_conectar">Conectar</string>
+    <string name="nome_botao_conectar">Connect</string>
+    <string name="mensagem_campo_obrigatório">* Required</string>
+    <string name="mensagem_usuario_senha_invalida">user/pass invalid</string>
+
 </resources>
