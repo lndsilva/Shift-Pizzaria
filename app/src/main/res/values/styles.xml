@@ -1,5 +1,12 @@
 <resources>
 
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -17,7 +24,7 @@
     <style name="mensagem_de_erro">
         <item name="android:textColor">@color/cor_mensagem_erro</item>
         <item name="android:textStyle">bold</item>
-        
+
     </style>
 
 </resources>

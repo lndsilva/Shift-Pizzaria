@@ -6,4 +6,8 @@
     <string name="mensagem_campo_obrigatório">* Campo obrigatório</string>
     <string name="mensagem_usuario_senha_invalida">usuário/senha inválida!!!</string>
     <string name="nome_botao_conectar">Conectar</string>
+    <string name="hello">Oie, %1$s</string>
+    <string name="fazer_pedido">Fazer Pedido</string>
+    <string name="sobre">Sobre</string>
+    <string name="desenvolvido_por">Desenvolvido por Laércio Silva</string>
 </resources>

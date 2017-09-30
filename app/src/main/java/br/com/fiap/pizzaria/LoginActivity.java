@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if (login.equals("android") && senha.equals("123")) {
             Intent telaMenu = new Intent(LoginActivity.this, MenuActivity.class);
-            telaMenu.putExtra("LOGIN",login);
+            telaMenu.putExtra(Constants.KEY_LOGIN, login);
             startActivity(telaMenu);
             finish();
 

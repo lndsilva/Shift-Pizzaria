@@ -6,5 +6,9 @@
     <string name="nome_botao_conectar">Connect</string>
     <string name="mensagem_campo_obrigatório">* Required</string>
     <string name="mensagem_usuario_senha_invalida">user/pass invalid</string>
+    <string name="hello">Hello, %1$s</string>
+    <string name="fazer_pedido">Order</string>
+    <string name="sobre">About</string>
+    <string name="desenvolvido_por">Developed by Laércio Silva</string>
 
 </resources>
