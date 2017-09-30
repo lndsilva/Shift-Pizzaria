@@ -7,5 +7,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="botao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/tamanho_texto_botao</item>
+        <item name="android:textColor">@color/cor_da_fonte_botao</item>
+        <item name="android:background">@drawable/botao_personalizado</item>
+    </style>
 
 </resources>

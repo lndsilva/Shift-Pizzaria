@@ -24,9 +24,8 @@
         android:hint="@string/hint_informe_sua_senha" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/label_conectar" />
+        style="@style/botao"
+        android:text="@string/nome_botao_conectar" />
 
 
 </LinearLayout>

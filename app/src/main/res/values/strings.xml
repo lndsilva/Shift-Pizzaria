@@ -3,4 +3,5 @@
     <string name="hint_informe_seu_login">Type Login</string>
     <string name="hint_informe_sua_senha">Type password</string>
     <string name="label_conectar">Connect</string>
+    <string name="nome_botao_conectar">Conectar</string>
 </resources>
