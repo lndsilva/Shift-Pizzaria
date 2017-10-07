@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opcoes_pagamento">
+        <item>@string/label_cartao</item>
+        <item>@string/label_cheque</item>
+        <item>@string/label_dinheiro</item>
+        <item>@string/label_VR</item>
+
+    </string-array>
+
+</resources>
