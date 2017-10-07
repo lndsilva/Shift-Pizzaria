@@ -6,11 +6,24 @@ import android.widget.CheckBox;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class PedidoActivity extends AppCompatActivity {
 
     @BindView(R.id.cbAtum)
     CheckBox cbAtum;
+    @BindView(R.id.cbBacon)
+    CheckBox cbBacon;
+    @BindView(R.id.cbCalabresa)
+    CheckBox cbCalabresa;
+    @BindView(R.id.cbMussarela)
+    CheckBox cbMussarela;
+
+    @BindView(R.id.rgTamanhoPizza)
+    CheckBox rgTamanhoPizza;
+    @BindView(R.id.spTipoPagamento)
+    CheckBox spTipoPagamento;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +31,10 @@ public class PedidoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pedido);
 
         ButterKnife.bind(this);
-        cbAtum.isChecked();
+    }
+
+    @OnClick(R.id.btFecharPedido)
+    public void fecharPedido() {
+
     }
 }
