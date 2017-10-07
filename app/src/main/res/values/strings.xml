@@ -14,5 +14,8 @@
     <string name="label_dinheiro">Dinheiro</string>
     <string name="label_VR">VR</string>
     <string name="label_cheque">Cheque</string>
+    <string name="label_pequena">Pequena</string>
+    <string name="label_media">Media</string>
+    <string name="label_grande">Grande</string>
 
 </resources>
