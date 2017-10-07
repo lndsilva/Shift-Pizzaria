@@ -58,6 +58,8 @@ public class PedidoActivity extends AppCompatActivity {
 
     }
 
+    final Pedido meuPedido = new Pedido();
+
     @OnClick(R.id.btFecharPedido)
     public void fecharPedido() {
 
@@ -65,7 +67,7 @@ public class PedidoActivity extends AppCompatActivity {
 
         carregar();
 
-        Pedido meuPedido = new Pedido();
+
 
         meuPedido.setTipoPagamento(spTipoPagamento.getSelectedItem().toString());
 
@@ -118,8 +120,11 @@ public class PedidoActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent abrirLogin = new Intent(PedidoActivity.this, PedidoFinalizadoActivity.class);
-                startActivity(abrirLogin);
+                Intent finalizarPedido = new Intent(PedidoActivity.this, PedidoFinalizadoActivity.class);
+
+                finalizarPedido.putExtra(Constants.KEY_MEU_PEDIDO, meuPedido);
+
+                startActivity(finalizarPedido);
                 finish();
 
             }
