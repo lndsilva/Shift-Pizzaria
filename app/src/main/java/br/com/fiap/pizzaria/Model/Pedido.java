@@ -1,4 +1,4 @@
-package br.com.fiap.pizzaria.model;
+package br.com.fiap.pizzaria.Model;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import java.util.List;
  * Created by logonrm on 07/10/2017.
  */
 
-public class pedido {
+public class Pedido {
 
     private List<String> sabor;
     private String tamanho;
